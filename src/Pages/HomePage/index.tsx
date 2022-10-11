@@ -51,6 +51,7 @@ export const HomePage = ({navigation}) => {
           contentContainerStyle={{
             justifyContent: "center",
             alignItems: "center",
+            paddingBottom: "25%",
           }}
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
@@ -112,7 +113,7 @@ const styles = StyleSheet.create({
     borderRadius: 55,
     backgroundColor: "white",
     bottom: "5%",
-    left: "8%",
+    right: "8%",
 
     shadowColor: "#000",
     borderWidth: 1,
